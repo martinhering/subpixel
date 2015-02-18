@@ -12,6 +12,8 @@
 		1BAAB2E51A948F9F00EB641D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAAB2E41A948F9F00EB641D /* Images.xcassets */; };
 		1BAAB2E81A948F9F00EB641D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BAAB2E61A948F9F00EB641D /* MainMenu.xib */; };
 		1BAAB2F41A948F9F00EB641D /* subpixelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAB2F31A948F9F00EB641D /* subpixelTests.m */; };
+		1BAAB2FF1A94966700EB641D /* VMLayerSubpixelTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAB2FE1A94966700EB641D /* VMLayerSubpixelTextFieldCell.m */; };
+		1BAAB3081A949BEB00EB641D /* VMLayerSubpixelButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAB3071A949BEB00EB641D /* VMLayerSubpixelButtonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 		1BAAB2ED1A948F9F00EB641D /* subpixelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = subpixelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAAB2F21A948F9F00EB641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAAB2F31A948F9F00EB641D /* subpixelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subpixelTests.m; sourceTree = "<group>"; };
+		1BAAB2FD1A94966700EB641D /* VMLayerSubpixelTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLayerSubpixelTextFieldCell.h; sourceTree = "<group>"; };
+		1BAAB2FE1A94966700EB641D /* VMLayerSubpixelTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLayerSubpixelTextFieldCell.m; sourceTree = "<group>"; };
+		1BAAB3061A949BEB00EB641D /* VMLayerSubpixelButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLayerSubpixelButtonCell.h; sourceTree = "<group>"; };
+		1BAAB3071A949BEB00EB641D /* VMLayerSubpixelButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLayerSubpixelButtonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				1BAAB2E41A948F9F00EB641D /* Images.xcassets */,
 				1BAAB2E61A948F9F00EB641D /* MainMenu.xib */,
 				1BAAB2DD1A948F9F00EB641D /* Supporting Files */,
+				1BAAB2FD1A94966700EB641D /* VMLayerSubpixelTextFieldCell.h */,
+				1BAAB2FE1A94966700EB641D /* VMLayerSubpixelTextFieldCell.m */,
+				1BAAB3061A949BEB00EB641D /* VMLayerSubpixelButtonCell.h */,
+				1BAAB3071A949BEB00EB641D /* VMLayerSubpixelButtonCell.m */,
 			);
 			path = subpixel;
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 			files = (
 				1BAAB2E31A948F9F00EB641D /* main.m in Sources */,
 				1BAAB2E11A948F9F00EB641D /* AppDelegate.m in Sources */,
+				1BAAB3081A949BEB00EB641D /* VMLayerSubpixelButtonCell.m in Sources */,
+				1BAAB2FF1A94966700EB641D /* VMLayerSubpixelTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

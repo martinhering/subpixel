@@ -11,9 +11,15 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButton* layerButton;
 @end
 
 @implementation AppDelegate
+
+- (void) awakeFromNib {
+    NSButtonCell* cell = self.layerButton.cell;
+    cell.backgroundColor = [NSColor whiteColor];
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
